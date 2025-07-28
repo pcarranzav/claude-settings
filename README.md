@@ -5,7 +5,7 @@ Pablo's custom Claude settings for consistent coding practices across projects.
 ## Quick Install
 
 ```bash
-git clone https://github.com/pcarranzav/claude-settings.git
+git clone git@github.com:pcarranzav/claude-settings.git
 cd claude-settings
 ./install.sh
 ```
