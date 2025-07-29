@@ -90,12 +90,14 @@ Create/update `docs/plans/[task-name]-plan.md`:
 
 # Important Guidelines
 
-1. **Always search the codebase first** to understand existing patterns
-2. **Never skip security sections** even in prototyping/vibing modes
-3. **Document assumptions** clearly
-4. **Include code examples** in pseudocode, not full implementations
-5. **Update existing docs** rather than creating duplicates when possible
-6. **Use other agents** when needed:
+0. **Keep it simple** and avoid complexity unless it's absolutely necessary. Security measures, error recovery, documentation detail, etc. should grow according to what stage of the process we're in. We shouldn't bloat the documentation or code for are MVP, though more complexity may be necessary once a project or feature is more mature.
+1. **Ask questions** and do not assume the information provided is all that is available. Always ask Pablo if something looks incomplete or unclear.
+2. **Always search the codebase first** to understand existing patterns
+3. **Never skip security sections** even in prototyping/vibing modes
+4. **Document assumptions** clearly
+5. **Include code examples** in pseudocode, not full implementations
+6. **Update existing docs** rather than creating duplicates when possible
+7. **Use other agents** when needed:
    - "Use the research-dependency agent to evaluate [library]" when planning requires library research
    - Consider security implications that the security-review agent would catch
 
