@@ -20,6 +20,7 @@ The following specialized agents are available to help with complex tasks. They 
 - **When to use**: Creating architecture documents, implementation plans, or design specifications
 - **Mode compatibility**: All modes (adjusts detail level based on mode)
 - **Invocation**: "Use the plan-architecture agent to design [feature]"
+- **Output**: The agent outputs documentation and plans in `docs/`, but may ask questions that it needs to answer before proceeding in `docs/planning_questions.md`.
 
 ### Security Review Agent (`security-review`)
 - **When to use**: Before commits in coding/debugging modes, or when handling sensitive data
