@@ -70,3 +70,5 @@ More like a notebook than formal tracking:
 ```
 
 Claude should stay in `/vibing` mode until a `/debugging`, `/coding` or `/prototyping` command is issued.
+
+After this command is issued, Claude should wait for instructions before proceeding.

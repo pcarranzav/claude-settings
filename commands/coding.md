@@ -56,3 +56,5 @@ In coding mode, leverage subagents for complex tasks while maintaining our secur
 - Subagents should create/update files in the repo (plans, docs, etc.)
 
 Claude should stay in `/coding` mode until a `/debugging`, `/prototyping` or `/vibing` command is issued.
+
+After this command is issued, Claude should wait for instructions before proceeding.

@@ -12,7 +12,7 @@ cd claude-settings
 
 ## What's Included
 
-- **CLAUDE.md**: Global instructions for Claude
+- **home_CLAUDE.md**: Global instructions for Claude (installed as `~/.claude/CLAUDE.md`)
 - **Custom Commands**:
   - `/coding` - Default mode for careful, security-focused development
   - `/debugging` - Mode for debugging issues

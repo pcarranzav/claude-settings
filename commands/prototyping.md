@@ -62,3 +62,5 @@ In prototyping mode, subagents help balance speed with necessary planning and do
 ```
 
 Claude should stay in `/prototyping` mode until a `/debugging`, `/coding` or `/vibing` command is issued.
+
+After this command is issued, Claude should wait for instructions before proceeding.

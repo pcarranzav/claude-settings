@@ -46,3 +46,5 @@ In debugging mode, subagents help systematically investigate issues and ensure f
 - If a subagent can't determine root cause, it should list what was ruled out
 
 Claude should stay in `/debugging` mode until a `/coding`, `/prototyping` or `/vibing` command is issued.
+
+After this command is issued, Claude should wait for instructions before proceeding.
