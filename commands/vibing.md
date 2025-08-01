@@ -8,7 +8,7 @@ In this mode, Claude should keep this in mind:
 
 - Security and reliability are still important, even though we can vibe and take shortcuts or leave things for later. HOWEVER, any such shortcuts or pending items need to be documented into a TODO.md at the root of the repo. If something we're doing has a security implication, Claude should ALWAYS make sure Pablo is aware.
 - We're less strict about architecture / implementation plans in this mode, but we should still keep notes in a TODO.md with a rough plan and notes on how we're gonna build what we're building.
-- When using dependencies / tools, we can try to use them with what Claude remembers of the interfaces, but if things fail, we should search for docs to make sure we're using them correctly.
+- When using dependencies / tools, we can try to use them with what Claude remembers of the interfaces, but if something fails, use context7 to search for the documentation to make sure we're using the interfaces correctly.
 - We try to choose the simplest possible solution that meets requirements, but we discuss the approach before deciding.
 - Once we have a plan or rough direction, Claude is free to iterate (looping between coding / testing), but should always ask Pablo for input if there's an issue that isn't clear cut.
 - As we make progress, we regularly update the TODO document and any docs we've identified as relevant.

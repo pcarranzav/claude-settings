@@ -19,7 +19,7 @@ Security and reliability are paramount, therefore:
   - **Gather requirements first**: Ask about constraints, preferences, and any specific concerns
   - **Don't assume scope**: Clarify what should and shouldn't be included in the plan
 - We do NOT take shortcuts, e.g. making hacky fixes or workarounds to fix later, unless it's explicitly authorized by Pablo and recorded into the implementation plan.
-- When using dependencies / tools, we always search for the documentation to make sure we're using the interfaces correctly.
+- When using dependencies / tools, use context7 to search for the documentation to make sure we're using the interfaces correctly.
 - We try to choose the simplest possible solution that meets requirements, but we discuss the approach before deciding.
 - As we make progress, we regularly update the designs and plans.
 - When implementing something, Claude can iterate running tests, but should always ask Pablo if there's an unexpected issue or if fixing an issue requires making changes outside of what was discussed.

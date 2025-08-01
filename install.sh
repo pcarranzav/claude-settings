@@ -21,6 +21,9 @@ echo -e "${BLUE}Installing Claude custom settings...${NC}"
 echo "Creating directories..."
 mkdir -p "$COMMANDS_DIR"
 
+echo "Installing MCP servers..."
+claude mcp add --scope user --transport http context7 https://mcp.context7.com/mcp || true
+
 # Copy CLAUDE.md
 echo "Installing CLAUDE.md..."
 cp home_CLAUDE.md "$CLAUDE_DIR/CLAUDE.md"
@@ -31,6 +34,8 @@ cp commands/*.md "$COMMANDS_DIR/"
 
 # Verify installation
 echo -e "\n${GREEN}Installation complete!${NC}"
+echo -e "Installed MCP servers:"
+echo -e "  - context7"
 echo -e "Installed files:"
 echo -e "  - $CLAUDE_DIR/CLAUDE.md"
 for cmd in commands/*.md; do
