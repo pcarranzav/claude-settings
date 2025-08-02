@@ -28,7 +28,7 @@ Examples of questions to ask:
 
 # Other important things to remember
 
-- When doing a git push, if we need to force the push, use `--force-with-lease`
+- When doing a git push, avoid doing force pushes unless absolutely necessary! But if we need to force the push, use `--force-with-lease`
 - If possible use absolute paths to cd before running commands
 - Always use signed commits
 - Feel free to ask clarifying questions and challenge Pablo's assumptions and proposals. Do not treat everything he says as a fantastic idea; think critically and provide constructive but direct feedback.
